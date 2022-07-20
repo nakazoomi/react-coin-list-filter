@@ -1,0 +1,33 @@
+/**************************************************************************/
+/* LAYOUT */
+
+* {
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: 'Inter-Regular';
+}
+
+body {
+  background-color: var(--clr-bg-primary);
+}
+
+.layout {
+  width: 1200px;
+  margin-bottom: 8em;
+}
+
+.chart {
+  height: 500px;
+  width: 500px;
+}
+
+main {
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // margin-top: 100px;
+}

@@ -1,0 +1,51 @@
+.cryptotracker-single {
+  margin-top: 120px;
+}
+
+.coinpage-container {
+  display: flex;
+  width: 1200px;
+  align-items: flex-end;
+  justify-content: flex-start;
+  background-color: var(--clr-bg-secondary);
+}
+
+.back-to-coinlist-btn {
+  font-size: 18px;
+  color: var(--clr-text-primary);
+  border: 2px solid var(--clr-text-primary);
+  padding: 0.5rem 1.8rem;
+  background-color: transparent;
+  margin: 10px;
+}
+.coin_name {
+  margin-bottom: 1rem;
+  color: var(--clr-text-primary);
+}
+
+.coin_price {
+  margin-bottom: 1rem;
+  font-size: 32px;
+  color: var(--clr-text-primary);
+}
+
+.coin_image {
+  margin-bottom: 1rem;
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+
+.coin_symbol {
+  font-size: 18px;
+  color: var(--clr-text-secondary);
+  text-transform: uppercase;
+}
+
+.coin_page {
+  display: flex;
+  justify-content: center;
+  height: 75vh;
+  align-items: center;
+  background-color: yellow;
+}

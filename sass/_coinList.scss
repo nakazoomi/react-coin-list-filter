@@ -1,0 +1,332 @@
+@use 'typography';
+
+/* Coin List Header */
+
+.coinlist_header {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 1200px;
+  margin-bottom: 20px;
+}
+
+/* Coinlist Rank Column */
+
+.coinlist_header-rank {
+  font-family: typography.$ff-semi-bold;
+  color: var(--clr-text-primary);
+
+  border-bottom: 5px solid aqua;
+
+  padding: 10px;
+  min-width: 100px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  svg {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+  }
+}
+
+.rank-wrapper {
+  flex: 1;
+  min-width: 100px;
+}
+
+.coinlist_mktcap-rank p {
+  flex: 1;
+  color: var(--clr-text-secondary);
+  padding: 10px;
+  min-width: 50px;
+}
+
+/* Coinlist Name Column */
+
+.coinlist_header-name {
+  font-family: typography.$ff-semi-bold;
+  color: var(--clr-text-primary);
+
+  border-bottom: 5px solid #4100ff;
+
+  padding: 10px;
+  min-width: 250px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+  svg {
+    width: 15px;
+    height: 15px;
+
+    margin: 0;
+  }
+}
+
+.name-img-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.coinlist_img {
+  flex: 1;
+
+  height: 30px;
+  width: 30px;
+  filter: saturate(1.5);
+  border-radius: 50%;
+
+  margin-right: 20px;
+}
+
+.name-wrapper {
+  // flex: 8;
+  min-width: 200px;
+  padding: 0px 10px;
+}
+
+.coinlist_name {
+  font-family: typography.$ff-medium;
+  color: var(--clr-text-primary);
+  font-size: 16px;
+
+  min-width: 200px;
+  font-weight: unset;
+}
+
+.coinlist_symbol {
+  text-transform: uppercase;
+  color: var(--clr-text-secondary);
+  font-size: 14px;
+  width: 100%;
+}
+
+/* Coinlist Price Column */
+
+.coinlist_header-price {
+  font-family: typography.$ff-semi-bold;
+  color: var(--clr-text-primary);
+
+  border-bottom: 5px solid orange;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  padding: 10px;
+  min-width: 150px;
+
+  svg {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+  }
+}
+
+.price-wrapper {
+  // flex: 1;
+  min-width: 150px;
+}
+
+.coinlist_price {
+  font-family: typography.$ff-medium;
+  color: var(--clr-text-primary);
+  font-size: 16px;
+
+  display: flex;
+  justify-content: flex-end;
+  min-width: 150px;
+}
+
+.coinlist_ath {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2px;
+  font-size: 14px;
+  color: var(--clr-text-secondary);
+  min-width: 150px;
+}
+
+/* Coinlist Volume Column */
+
+.coinlist_header-volume {
+  font-family: typography.$ff-semi-bold;
+  color: var(--clr-text-primary);
+
+  border-bottom: 5px solid orchid;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  min-width: 280px;
+  padding: 10px;
+
+  svg {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+  }
+}
+
+.volume-wrapper {
+  // flex: 2;
+  min-width: 100px;
+}
+
+.coinlist_volume {
+  min-width: 230px;
+  color: var(--clr-text-secondary);
+}
+
+/* Coinlist Percent Column */
+
+.coinlist_header-percent {
+  font-family: typography.$ff-semi-bold;
+  color: var(--clr-text-primary);
+
+  border-bottom: 5px solid burlywood;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  min-width: 150px;
+  padding: 10px;
+
+  svg {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+  }
+}
+
+.percent-wrapper {
+  // flex: 1;
+  min-width: 150px;
+}
+
+.coinlist_percent {
+  min-width: 150px;
+}
+
+.red {
+  font-family: typography.$ff-medium;
+  color: #ff4800;
+  font-size: 16px;
+
+  min-width: 100px;
+  padding: 10px;
+}
+
+.green {
+  font-family: typography.$ff-medium;
+  color: #02cc78;
+  font-size: 16px;
+
+  min-width: 100px;
+  padding: 10px;
+}
+
+/* Coinlist Mkt Cap Column */
+
+.coinlist_header-mktcap {
+  font-family: typography.$ff-semi-bold;
+  color: var(--clr-text-primary);
+
+  border-bottom: 5px solid slategray;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+
+  // flex: 2;
+  min-width: 250px;
+  padding: 10px;
+
+  svg {
+    width: 15px;
+    height: 15px;
+    margin: 0;
+  }
+}
+
+.mktcap-wrapper {
+  min-width: 250px;
+}
+
+.coinlist_mktcap {
+  color: var(--clr-text-secondary);
+  width: 250px;
+}
+
+/* Coin List Collection */
+
+.cryptotracker_container {
+  width: 1200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.coinlist_collection {
+  width: 1200px;
+}
+
+.coinlist_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  border-bottom: 1px solid var(--clr-bg-secondary);
+
+  transition: all 0.1s ease-in-out;
+
+  // z-index: -10;
+  // position: relative;
+}
+
+.coinlist_row:hover {
+  background-color: var(--clr-bg-secondary);
+  // border-right: 5px solid orange;
+  // border-left: 5px solid orange;
+
+  border-radius: 8px;
+  scale: 1.008;
+}
+
+.coinlist {
+  display: flex;
+  align-items: center;
+  padding-right: 24px;
+}
+
+.coinlist_data {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: right;
+  width: 100%;
+  // background-color: var(--clr-bg-coinlist);
+
+  padding: 10px;
+  margin-left: 40px;
+}
+
+// .coinlist_data:hover {
+//   background-color: #23233c;
+// }

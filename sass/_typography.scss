@@ -1,0 +1,230 @@
+/**************************************************************************/
+/* FONTS */
+
+$ff-thin: 'TTInterphasesPro-Thin', sans-serif;
+$ff-thin-italic: 'TTInterphasesPro-Thin-Italic', sans-serif;
+
+$ff-light: 'TTInterphasesPro-Light', sans-serif;
+$ff-light-italic: 'TTInterphasesPro-Light-Italic', sans-serif;
+
+$ff-regular: 'TTInterphasesPro-Regular', sans-serif;
+$ff-regular-italic: 'TTInterphasesPro-Regular-Italic', sans-serif;
+
+$ff-medium: 'TTInterphasesPro-Medium', sans-serif;
+$ff-medium-italic: 'TTInterphasesPro-Medium-Italic', sans-serif;
+
+$ff-bold: 'TTInterphasesPro-Bold', sans-serif;
+$ff-bold-italic: 'TTInterphasesPro-Bold-Italic', sans-serif;
+
+$ff-semi-bold: 'TTInterphasesPro-SemiBold', sans-serif;
+$ff-semi-bold-italic: 'TTInterphasesPro-SemiBold-Italic', sans-serif;
+
+$ff-extra-bold: 'TTInterphasesPro-Extra-Bold', sans-serif;
+$ff-extra-bold-italic: 'TTInterphasesPro-Extra-Bold-Italic', sans-serif;
+
+$ff-black: 'TTInterphasesPro-Black', sans-serif;
+$ff-black-italic: 'TTInterphasesPro-Black-Italic', sans-serif;
+
+/* var(--ff-primary) */
+/* var(--ff-secondary) */
+
+/**************************************************************************/
+/* FONT FAMILIES */
+
+@font-face {
+  font-family: 'TTInterphasesPro-Thin';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Thin.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-Thin.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Thin-Italic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-ThinItalic.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-ThinItalic.woff)
+      format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Light';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Light.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-Light.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Light-Italic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-LightItalic.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-LightItalic.woff)
+      format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Regular';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Regular.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Regular-Italic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-RegularItalic.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-RegularItalic.woff)
+      format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Medium';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Medium.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Medium-Italic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-MediumItalic.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-MediumItalic.woff)
+      format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-SemiBold';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-SemiBold.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-SemiBold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-SemiBold-Italic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-SemiBoldItalic.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-SemiBoldItalic.woff)
+      format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Bold';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Bold.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Bold-Italic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-BoldItalic.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-BoldItalic.woff)
+      format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Black';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-Black.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-Black.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'TTInterphasesPro-Black-Italic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/fonts/TTInterphasesPro/WOFF2/TTInterfaces-BlackItalic.woff2)
+      format('woff2'),
+    url(/fonts/TTInterphasesPro/WOFF/TTInterfaces-BlackItalic.woff)
+      format('woff');
+}
+
+/**************************************************************************/
+/* TYPOGRAPHY */
+
+p {
+  font-family: $ff-regular;
+  color: var(--clr-text-primary);
+  font-size: 16px;
+}
+
+h1 {
+  font-family: $ff-extra-bold;
+  color: var(--clr-text-primary);
+  font-size: 28px;
+}
+
+h2 {
+  font-family: $ff-bold;
+  color: var(--clr-text-primary);
+  font-size: 24px;
+}
+
+h3 {
+  font-family: $ff-light;
+  color: var(--clr-text-primary);
+  font-size: 20px;
+}
+
+h4 {
+  font-family: $ff-light;
+  color: var(--clr-text-primary);
+  font-size: 18px;
+}
+
+td {
+  font-family: $ff-regular;
+  color: #fff;
+  font-size: 18px;
+}
+
+a {
+  font-family: $ff-regular;
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  font-family: $ff-regular;
+  text-decoration: none;
+  list-style-type: none;
+  padding: 5px;
+}
+
+button {
+  font-family: $ff-bold;
+  border: 2px solid var(--clr-text-primary);
+  padding: 0.5rem 1.8rem;
+  background-color: transparent;
+  margin: 10px;
+
+  font-size: 16px;
+  color: var(--clr-text-primary);
+  font-size: 18px;
+}
+

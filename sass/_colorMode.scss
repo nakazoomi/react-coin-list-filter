@@ -1,0 +1,49 @@
+/* Color Mode*/
+
+body {
+  --clr-bg-primary: #fbfcfe; /* Background Color Primary */
+  --clr-bg-secondary: #eff2f5; /* Background Color Secondary */
+
+  --clr-text-primary: #000; /* Text Color Primary */
+  --clr-text-secondary: #aaaab5; /* Text Color Secondary */
+
+  --clr-identification: #0400ff; /* Color Identification */
+}
+
+.white-mode {
+  --clr-bg-primary: #1a1821; /* Background Color Primary */
+  --clr-bg-secondary: #100f13; /* Background Color Secondary */
+
+  --clr-text-primary: #fff; /* Text Color Primary */
+  --clr-text-secondary: #a1aacb; /* Text Color Secondary */
+
+  --clr-identification: #0400ff; /* Color Identification */
+}
+
+/* Color Mode Button */
+
+.color-mode {
+  background-color: #100f13;
+  height: 43px;
+  width: 43px;
+  margin: 10px 5px;
+
+  img {
+    margin: 10px;
+    filter: invert(1);
+  }
+}
+
+#color-mode-btn {
+  width: 20px;
+  height: 20px;
+  margin: auto 5px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
