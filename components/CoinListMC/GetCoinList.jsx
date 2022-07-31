@@ -1,7 +1,6 @@
 // STRUCTURE COINS FROM SHOW COIN LIST
 
 import Coins from './ShowCoinList';
-import AppPagination from '../Pagination';
 
 export default function CoinList({ filteredCoins }) {
   return (
@@ -23,7 +22,6 @@ export default function CoinList({ filteredCoins }) {
           />
         );
       })}
-      <AppPagination />
     </>
   );
 }
